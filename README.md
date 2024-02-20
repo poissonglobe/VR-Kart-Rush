@@ -1,2 +1,2 @@
 # VR-Kart-Rush
-VR racing game
+A simulation of racing using VR  
