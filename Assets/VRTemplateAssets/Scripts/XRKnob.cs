@@ -57,7 +57,7 @@ namespace Unity.VRTemplate
                 m_AccumulatedAngle += m_CurrentOffset;
 
                 // Now set a new base angle
-                m_BaseAngle = Mathf.Atan2(direction.z, direction.x) * Mathf.Rad2Deg;
+                m_BaseAngle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
                 m_CurrentOffset = 0.0f;
             }
 
@@ -68,7 +68,7 @@ namespace Unity.VRTemplate
             public void SetTargetFromVector(Vector3 direction)
             {
                 // Set the target angle
-                var targetAngle = Mathf.Atan2(direction.z, direction.x) * Mathf.Rad2Deg;
+                var targetAngle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg;
 
                 // Return the offset
                 m_CurrentOffset = ShortestAngleDistance(m_BaseAngle, targetAngle, 360.0f);
@@ -350,7 +350,7 @@ namespace Unity.VRTemplate
             }
 
             if (m_Handle != null)
-                m_Handle.localEulerAngles = new Vector3(0.0f, 0.0f, angle);
+                m_Handle.localEulerAngles = new Vector3(0.0f, angle, 0.0f);
         }
 
         void SetValue(float newValue)
