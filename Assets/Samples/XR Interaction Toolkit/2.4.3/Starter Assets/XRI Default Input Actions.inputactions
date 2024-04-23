@@ -817,7 +817,7 @@
                 {
                     "name": "",
                     "id": "8ed313a6-c966-4669-8a62-4bb2319d485b",
-                    "path": "<XRController>{LeftHand}/Primary2DAxis",
+                    "path": "<XRController>{LeftHand}/primary2DAxis",
                     "interactions": "",
                     "processors": "ScaleVector2(y=0),StickDeadzone",
                     "groups": "Generic XR Controller",

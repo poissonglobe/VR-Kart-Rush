@@ -1,0 +1,494 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.18f1 (d29bea25151d) revision 13802474'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'fr' Physical Memory: 65257 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/klegendre/Desktop/VR-Kart-Rush
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59464
+Successfully changed project path to: C:/Users/klegendre/Desktop/VR-Kart-Rush
+C:/Users/klegendre/Desktop/VR-Kart-Rush
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29916] Host "[IP] 172.16.26.18 [Port] 0 [Flags] 2 [Guid] 1457866385 [EditorId] 1457866385 [Version] 1048832 [Id] WindowsEditor(7,R2-2010-08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [29916] Host "[IP] 172.16.26.18 [Port] 0 [Flags] 2 [Guid] 1457866385 [EditorId] 1457866385 [Version] 1048832 [Id] WindowsEditor(7,R2-2010-08) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 24.29 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.63 ms.
+Initialize engine version: 2022.3.18f1 (d29bea25151d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/klegendre/Desktop/VR-Kart-Rush/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8031 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008682 seconds.
+- Loaded All Assemblies, in  0.309 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 230 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.546 seconds
+Domain Reload Profiling: 854ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (124ms)
+		LoadAssemblies (95ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (122ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (110ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (498ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (344ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 12.67 ms, found 12 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <bfbc89a04b6b4dd49c3614d03fc31ce8>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <8e887700cd7e4674989da7b046e8eaa6>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1445ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (512ms)
+		LoadAssemblies (320ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (217ms)
+				TypeCache.ScanAssembly (198ms)
+			ScanForSourceGeneratedMonoScriptInfo (29ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (730ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (547ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (332ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 11.00 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 6363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 113 unused Assets / (369.6 KB). Loaded Objects now: 6846.
+Memory consumption went from 240.7 MB to 240.3 MB.
+Total: 3.830800 ms (FindLiveObjects: 0.352200 ms CreateObjectMapping: 0.192700 ms MarkObjects: 3.106300 ms  DeleteObjects: 0.178900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 244725.602064 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Sphere01_Mat.mat
+  artifactKey: Guid(2bd10f41ac306754cbf3f5cd9a48ed9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/Sphere01_Mat.mat using Guid(2bd10f41ac306754cbf3f5cd9a48ed9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62a539da235a5cae014c9f9ed768b02') in 0.263119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 87.194594 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/Altar01_Art.prefab
+  artifactKey: Guid(5b2e745150218184f80c3aec2408686b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/Altar01_Art.prefab using Guid(5b2e745150218184f80c3aec2408686b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80962cb351971e81868f328916a12380') in 0.035817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/CALogo01_Art.prefab
+  artifactKey: Guid(f301952d4598cf446b1269ff6feee689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/CALogo01_Art.prefab using Guid(f301952d4598cf446b1269ff6feee689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f4086f1ffffc3a77130791f222b618') in 0.022027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/EntranceDoor01_Art.prefab
+  artifactKey: Guid(b9535bbb4af341b45b7cde9d48c1a37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/EntranceDoor01_Art.prefab using Guid(b9535bbb4af341b45b7cde9d48c1a37f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0f1f110da45382fe38d4f3b4476bda9') in 0.015867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/FloorPanel03_Art.prefab
+  artifactKey: Guid(84650040ebc6f5c40b44a1b28564beee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/FloorPanel03_Art.prefab using Guid(84650040ebc6f5c40b44a1b28564beee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72303bfe1fe8646b23fbaa99fb18026f') in 0.019206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/FloorPanel05_Art.prefab
+  artifactKey: Guid(730afaa04b3018a4d8ccd9e7687a1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/FloorPanel05_Art.prefab using Guid(730afaa04b3018a4d8ccd9e7687a1570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefbd5aa632f70b75ac6a3035e6c215b') in 0.018082 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP02_Art.prefab
+  artifactKey: Guid(e5982ed9c7c5cca48a260fceebd12f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP02_Art.prefab using Guid(e5982ed9c7c5cca48a260fceebd12f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64ab7e531c1680168a807114f8c0bab') in 0.024762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/InfoPanel01_Art.prefab
+  artifactKey: Guid(fc2c8410b150bd14ca42f9fb3524282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/InfoPanel01_Art.prefab using Guid(fc2c8410b150bd14ca42f9fb3524282e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b416a9d26e75a6f68a29983de3d27d8e') in 0.018140 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP01_Art.prefab
+  artifactKey: Guid(d1969df61fc4ca34aac8d187070e77fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP01_Art.prefab using Guid(d1969df61fc4ca34aac8d187070e77fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9f374d4ab6cceca33deb183b79faff') in 0.021816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/PMLogo01_Art.prefab
+  artifactKey: Guid(deb19142c4f128a4cbbef4bc2f265531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/PMLogo01_Art.prefab using Guid(deb19142c4f128a4cbbef4bc2f265531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5aa55139cdb1b349ed1ae6cbd27c3a8e') in 0.030715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/Petals02_Art.prefab
+  artifactKey: Guid(1bd15c46d7c5df540b6f6231d2449ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/Petals02_Art.prefab using Guid(1bd15c46d7c5df540b6f6231d2449ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364d1615c183fdc8b0b566d094ca1d2b') in 0.017073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP04_Art.prefab
+  artifactKey: Guid(46133c93bf821264d8ba82358985d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP04_Art.prefab using Guid(46133c93bf821264d8ba82358985d8d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e14f7d5df91bea304cdbbc884e13a8d5') in 0.018956 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP03_Art.prefab
+  artifactKey: Guid(dc9b8484a9d5b514ea6e994adc2b8b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonLargeVIP03_Art.prefab using Guid(dc9b8484a9d5b514ea6e994adc2b8b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e464608e5d08537987c06b21dd3d206') in 0.019786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/InfoPanel02_Art.prefab
+  artifactKey: Guid(cb68b952bebd603438bd9b65c169d4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/InfoPanel02_Art.prefab using Guid(cb68b952bebd603438bd9b65c169d4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf3e0155c3803756ff3f3fa77a17199') in 0.017619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloBush01_Art.prefab
+  artifactKey: Guid(fbd6284e02094b8498259912cecb8eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloBush01_Art.prefab using Guid(fbd6284e02094b8498259912cecb8eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0afde54ad47abfb7f457c929266049a9') in 0.018539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonFloorRamp01_Art.prefab
+  artifactKey: Guid(f89d8e6273d041f47a2f376dce39aa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonFloorRamp01_Art.prefab using Guid(f89d8e6273d041f47a2f376dce39aa4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660c6cee4cb800cc8222b2c67e5e4590') in 0.021053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/FloorPanel02_Art.prefab
+  artifactKey: Guid(63b9c211c018c1d41bc3ad38127502cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/FloorPanel02_Art.prefab using Guid(63b9c211c018c1d41bc3ad38127502cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597493d38151fe69c92e8317d0660a3a') in 0.017858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/DomeExtra01_Art.prefab
+  artifactKey: Guid(74b9f31372734e949bfb791eafe5b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/DomeExtra01_Art.prefab using Guid(74b9f31372734e949bfb791eafe5b8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a7fc0226f1afe28523027a7f51a2f15') in 0.020474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloBush03_Art.prefab
+  artifactKey: Guid(a1fb828ddf481964bbb5efc9e29c715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloBush03_Art.prefab using Guid(a1fb828ddf481964bbb5efc9e29c715d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32de0a4b326cc6d18bcaae1f8cc9e3f2') in 0.018472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonFloorMedium01_Art.prefab
+  artifactKey: Guid(357c03b3ae317594c819f1ff65e3aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HexagonFloorMedium01_Art.prefab using Guid(357c03b3ae317594c819f1ff65e3aae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8db6b1b7e7185c33a2143b710fad35') in 0.018460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/ElevatorTeleport01_Art.prefab
+  artifactKey: Guid(7add8b0c0a892124bad6075be283acb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/ElevatorTeleport01_Art.prefab using Guid(7add8b0c0a892124bad6075be283acb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350b787fe1dc7877f78c409a8a984e65') in 0.024279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloBush02_Art.prefab
+  artifactKey: Guid(0825078381298f74dba5c9a67bd9b6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloBush02_Art.prefab using Guid(0825078381298f74dba5c9a67bd9b6ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341a02aa40c39a05c8393398f86f415a') in 0.019011 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 31.778935 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/DomeBase_Mat.mat
+  artifactKey: Guid(5b61ac625c9a02d4bac0bdad4cf5e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Materials/DomeBase_Mat.mat using Guid(5b61ac625c9a02d4bac0bdad4cf5e791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aacd941851989e487efc924cf2943f0') in 0.015175 seconds
+Number of updated asset objects reloaded before import = 50
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 43.724554 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/BranchFlowers01_Art.fbx
+  artifactKey: Guid(87d877a8371e25c4ab2ed829056db985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/BranchFlowers01_Art.fbx using Guid(87d877a8371e25c4ab2ed829056db985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72849b9c9634e1d36cfb7effdef11af7') in 0.132052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/FloorPanel03_Art.fbx
+  artifactKey: Guid(effd0b84c0ddecb4e9c444ef8302f957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/FloorPanel03_Art.fbx using Guid(effd0b84c0ddecb4e9c444ef8302f957) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c00b64c89729c72f3ca8f71f876611') in 0.021786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HoloTree01_Art.fbx
+  artifactKey: Guid(a73b6919e588ac64fa812cc785eb50b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HoloTree01_Art.fbx using Guid(a73b6919e588ac64fa812cc785eb50b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022e51d907d1c29393791cd067121458') in 0.026047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/FloorPanel04_Art.fbx
+  artifactKey: Guid(79286c6dbc302454f8789d8604694d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/FloorPanel04_Art.fbx using Guid(79286c6dbc302454f8789d8604694d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f38ba59598aae2dbefd859fd01ff473') in 0.021611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/ElevatorTeleport01_Art.fbx
+  artifactKey: Guid(1b9a9490b3687fa439bbf4d8ef88cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/ElevatorTeleport01_Art.fbx using Guid(1b9a9490b3687fa439bbf4d8ef88cb00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c68a16505d4d9320d6220218e4282be') in 0.024558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HoloBush01_Art.fbx
+  artifactKey: Guid(d44e68a159ede154ab9d9d9b142a9687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HoloBush01_Art.fbx using Guid(d44e68a159ede154ab9d9d9b142a9687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4dd10b5744bc2147fe4e4d261d96f94') in 0.017453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HexagonLargeVIP03_Art.fbx
+  artifactKey: Guid(b4efd3eb8f09b7745b8b515f9140b2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HexagonLargeVIP03_Art.fbx using Guid(b4efd3eb8f09b7745b8b515f9140b2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a971231fe90eacc9566469b282a2d1') in 0.020266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/EntranceDoor01_Art.fbx
+  artifactKey: Guid(f19f9c2a09b8b6c45a092e6288ff9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/EntranceDoor01_Art.fbx using Guid(f19f9c2a09b8b6c45a092e6288ff9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a93111f9e2f06d331268253cc461cb2f') in 0.020582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/PMLogo01_Art.fbx
+  artifactKey: Guid(b6bef41ffd380b54ba19cd4de1ba63cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/PMLogo01_Art.fbx using Guid(b6bef41ffd380b54ba19cd4de1ba63cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '065affb27e07daaeae3e92e6b54fae89') in 0.022983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HexagonFloorSmall01_Art.fbx
+  artifactKey: Guid(1e33a6578650d364a901236b607645be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Models/HexagonFloorSmall01_Art.fbx using Guid(1e33a6578650d364a901236b607645be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e293d812af36031f201a2af9bf07a7') in 0.018298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.093988 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/Dome01_Art.prefab
+  artifactKey: Guid(58769ee31894b1e4880ea9c6ffb02a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/Dome01_Art.prefab using Guid(58769ee31894b1e4880ea9c6ffb02a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623923b8879130580a4c76042ab4087d') in 0.011868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloTree01_Art.prefab
+  artifactKey: Guid(f362fdb14e67a5b4f8ee4e7747a8a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Polygonal Mind/Assets/2108_ABMAssetPack/Prefabs/HoloTree01_Art.prefab using Guid(f362fdb14e67a5b4f8ee4e7747a8a0a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d1369bf210548936180c07d328a58c') in 0.010145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
